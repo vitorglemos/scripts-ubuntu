@@ -1,0 +1,12 @@
+# INSTALL DISLOCKER
+sudo apt install dislocker
+
+sudo mkdir -p /media/bitlocke
+sudo mkdir -p /media/bitlockermount
+
+#SELECT DISK
+sudo fdisk -l
+
+sudo dislocker /dev/sdb1 -u<password> -- /media/bitlocker
+
+sudo mount -o loop /media/bitlocker/dislocker-file/media/bitlockermount
