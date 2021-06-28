@@ -1,7 +1,7 @@
 # INSTALL DISLOCKER
 sudo apt install dislocker
 
-sudo mkdir -p /media/bitlocke
+sudo mkdir -p /media/bitlocker
 sudo mkdir -p /media/bitlockermount
 
 #SELECT DISK
